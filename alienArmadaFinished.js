@@ -42,7 +42,7 @@ var gameOverMessage = Object.create(messageObject);
 //Загрузка таблицы фреймов
 var image = new Image();
 	image.addEventListener("load", loadHandler, false);
-	image.src = "../images/alienArmada.png";
+	image.src = "alienArmada.png";
 	assetsToLoad.push(image);
 //Загрузка звуков
 var music = document.querySelector("#music");
