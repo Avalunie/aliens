@@ -1,0 +1,8 @@
+@font-face
+{
+ font-family: emulogic;
+ src: url("../fonts/emulogic.ttf");
+}
+drawingSurface.font = "normal bold 18px Helvetica";
+drawingSurface.fillStyle = "#000";
+drawingSurface.textBaseline = "top";
