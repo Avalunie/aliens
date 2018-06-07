@@ -30,7 +30,7 @@ var scoreDisplay = Object.create(messageObject);
 	scoreDisplay.fillStyle = "#00FF00";
 	scoreDisplay.x = 400;
 	scoreDisplay.y = 10;
-	messages.push(scoreDisplay);
+	//messages.push(scoreDisplay);
 //Создание объекта для отображения сообщения о конце игры
 var gameOverMessage = Object.create(messageObject);
 	gameOverMessage.font = "normal bold 20px emulogic";
@@ -158,6 +158,7 @@ function loadHandler()
 function playGame()
 {
 	music.play ();
+	messages.push(scoreDisplay);
 	//Налево
 	if(moveLeft && !moveRight)
 	{
