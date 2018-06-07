@@ -68,7 +68,7 @@ var shoot = false;
 var spaceKeyIsDown = false;
 //Переменные игры
 var score = 0;
-var scoreNeededToWin = 60;
+var scoreNeededToWin = 5;
 var alienFrequency = 100;
 var alienTimer = 0;
 var assetsLoaded = 0;
