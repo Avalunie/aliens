@@ -291,7 +291,6 @@ function endGame()
 		gameOverMessage.x = 120;
 		gameOverMessage.text = "Земля спасена!";
 	}
-	music.stop ();
 }
 function makeAlien()
 {
