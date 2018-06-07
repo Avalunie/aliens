@@ -285,7 +285,7 @@ function endGame()
 	gameOverMessage.visible = true;
 	if(score < scoreNeededToWin)
 	{
-		gameOverMessage.x = 170;
+		gameOverMessage.X = 170;
 		gameOverMessage.text = "Земля захвачена!";
 	}
 	else
@@ -377,13 +377,15 @@ function endGame()
 	gameOverMessage.visible = true;
 	if(score < scoreNeededToWin)
 	{
+		gameOverMessage.x = 170;
 		gameOverMessage.text = "Земля захвачена!";
 	}
 	else
 	{
-		gameOverMessage.x = 120;
+		gameOverMessage.x = 170;
 		gameOverMessage.text = "Земля спасена!";
 	}
+	music.pause ();
 }
 function render()
 {
