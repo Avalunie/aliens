@@ -280,20 +280,6 @@ function destroyAlien(alien)
 		removeObject(alien, sprites);
 	}
 }
-function endGame()
-{
-	gameOverMessage.visible = true;
-	if(score < scoreNeededToWin)
-	{
-		gameOverMessage.X = 170;
-		gameOverMessage.text = "Земля захвачена!";
-	}
-	else
-	{
-		gameOverMessage.x = 170;
-		gameOverMessage.text = "Земля спасена!";
-	}
-}
 function makeAlien()
 {
 	//Создание спрайта пришельца
@@ -387,6 +373,8 @@ function endGame()
 	}
 	music.pause ();
 }
+
+
 function render()
 {
 	drawingSurface.clearRect(0, 0, canvas.width, canvas.height);
